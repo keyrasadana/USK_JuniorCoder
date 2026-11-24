@@ -2,7 +2,7 @@ import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class DiskonBarang {
+public class SoalNomor2_DiskonBarang {
 
     public static void main(String[] args) {
 
@@ -12,9 +12,11 @@ public class DiskonBarang {
 
             System.out.print("Harga Barang : Rp. ");
             double harga = input.nextDouble();
+            // int harga = input.nextInt();
 
             System.out.print("Diskon (%) : ");
             int diskon = input.nextInt();
+            // double diskon = input.nextDouble();
 
             double jumlahDiskon = harga * diskon / 100;
             double totalHarga = harga - jumlahDiskon;
@@ -22,6 +24,7 @@ public class DiskonBarang {
             System.out.println("\n== RINCIAN PEMBAYARAN ==");
             System.out.println("Harga Barang : Rp. " + format.format(harga));
             System.out.println("Diskon : " + diskon + " %");
+    
             System.out.println("Diskon (Rp.) : Rp. " + format.format(jumlahDiskon));
             System.out.println("Total Harga : Rp. " + format.format(totalHarga));
         }

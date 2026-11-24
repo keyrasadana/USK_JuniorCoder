@@ -1,6 +1,5 @@
 import javax.swing.JOptionPane;
-
-public class LulusGagal {
+public class SoalNomor3_LulusGagal {
 
     public static void main(String[] args) {
 
@@ -23,7 +22,7 @@ public class LulusGagal {
                 "Nilai 1 : " + nilai1 +
                 "\nNilai 2 : " + nilai2 +
                 "\nNilai 3 : " + nilai3 +
-                "\nRata-rata : " + String.format("%.2f", (double) rata) +
+                "\nRata-rata : " + rata +
                 "\nHasil : LULUS"
             );
         } else {
